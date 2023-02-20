@@ -1,0 +1,9 @@
+.content-left{
+    display: flex;
+    height: 100%;
+    width: 25%;
+    justify-content:left;
+}
+
+.content-left_figure{
+}

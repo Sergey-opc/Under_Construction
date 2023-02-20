@@ -1,0 +1,10 @@
+.content-right{
+    display: flex;
+    height: 100%;
+    width: 25%;
+    justify-content: right;
+}
+
+.content-right_figure{
+    
+}

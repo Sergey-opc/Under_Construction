@@ -1,0 +1,10 @@
+@import url("/Under_Construction/pages/main/content/left_sidebar/left_sidebar.css");
+@import url("/Under_Construction/pages/main/content/right_sidebar/right_sidebar.css");
+@import url("/Under_Construction/pages/main/content/content.css");
+@import url("/Under_Construction/pages/main/content/center/content_center.css");
+
+.main{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+}
