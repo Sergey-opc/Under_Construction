@@ -9,7 +9,7 @@
 
 .content-center_logo{
     display: flex;
-    height: 20vh;
+    height: 19vh;
     width: 100%;
     align-items: center;
     justify-content: center;
@@ -20,7 +20,13 @@
     font-style: normal;
 }
 
+.content-center_core-text{
+    margin-top: 3%;
+}
+
 .content-center_core-text h1{
+    align-items: center;
+    justify-content: center;
     font-weight: 700;
     font-size: 72px;
     line-height: 104%;
@@ -31,10 +37,32 @@
 }
 
 .content-center_core-text p{ 
-    margin: 0 27%;
+    margin: 1% 27%;
     font-weight: 400;
     font-size: 18px;
     line-height: 27px;
     text-align: center;
     color: rgba(0, 0, 0, 0.8);
+}
+
+.content-center_timer{
+    width: 56%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+    margin-left: 24%;
+}
+
+.content-center_timer p{
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 100%;
+    color: #162C4E;
+}
+
+.content-center_event{
+    padding-top: 8%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

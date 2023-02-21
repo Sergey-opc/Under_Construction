@@ -1,0 +1,28 @@
+.notified-box{
+    box-sizing: border-box;
+    display:flex;
+    width: 440px;
+    height: 59px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.4);
+    border-radius: 40px;
+}
+
+.notified-box_input{
+    border: none;
+    outline:none;
+    font-size: 18px;
+    margin: 2% auto 2% 3%;
+    height: 70%;
+    width: 80%;
+    background-color: transparent;
+}
+
+.notified-box_button{
+    margin: auto 2% auto auto;
+    width: 43px;
+    height: 43px;
+    background: #DF2224;
+    border-radius: 50%;
+}

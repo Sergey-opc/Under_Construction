@@ -2,6 +2,11 @@
 @import url("/Under_Construction/pages/main/content/right_sidebar/right_sidebar.css");
 @import url("/Under_Construction/pages/main/content/content.css");
 @import url("/Under_Construction/pages/main/content/center/content_center.css");
+@import url("/Under_Construction/pages/main/content/center/timer-info/tmer-info.css");
+@import url("/Under_Construction/pages/main/content/center/event/event_button.css");
+@import url("/Under_Construction/pages/main/content/center/event/event_text.css");
+@import url("/Under_Construction/pages/main/footer/footer.css");
+@import url("/Under_Construction/pages/main/footer/notified-box/notified-box.css");
 
 .main{
     box-sizing: border-box;
