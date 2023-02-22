@@ -5,17 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="/Under_Construction/pages/main/content/center/script.js"></script>
     <title>Document</title>
 </head>
 <body>
-    <wrapper class="wrapper">
+    <wrapper id="wrapper" class="wrapper">
+        <div id="popup" class="popup">
+            <div id="popup_body" class="popup_body">
+                <div class="popup_content">
+                    <a href="index.html" class="popup_close"><img src="/Under_Construction/assets/icons/X.svg" alt="X"></a>
+                    <div id="popup_title" class="popup_title"></div>
+                    <div id="popup_text" class="popup_text"></div>
+                </div>
+            </div>
+        </div>
         <div class="content">
             <sidebar class="content-left">
                 <img src="/Under_Construction/assets/images/Vector1.png" class="content-left_figure" alt="Left figure">
             </sidebar>
             <div class="content-center">
-                <div class="content-center_logo"><img src="/Under_Construction/assets/images/LEAD_logo.png" alt="LEAD logo"></div>
+                <div class="content-center_logo"><a href="index.html"><img  src="/Under_Construction/assets/images/LEAD_logo.png" alt="LEAD logo"></a></div>
                 <div class="content-center_core-text">
                     <h1 class="poppins">Under Construction</h1>
                     <p class="poppins">We're making lots of improvements and will be back soon</p>
@@ -41,12 +49,14 @@
                 <img src="/Under_Construction/assets/images/Vector2.png" class="content-right_figure" alt="Right figure">
             </sidebar>
         </div>
-        <footer class="footer">
-            <div class="notified-box">
-                <input placeholder="Enter your Email and get notified" class="notified-box_input poppins" type="text">
-                <button class="notified-box_button"><img src="/Under_Construction/assets/icons/arrow-right.svg" alt="arrow-right"></button>
-            </div>
+        <footer id="footer" class="footer">
+            <form id="form" class="notified-box">
+                <input placeholder="Enter your Email and get notified" class="notified-box_input poppins" type="text" name="email">
+                <button type="submit" id="submit" class="notified-box_button"><img src="/Under_Construction/assets/icons/arrow-right.svg" alt="arrow-right"></button>
+            </form>
         </footer>
     </wrapper>
+    <script src="/Under_Construction/pages/main/content/center/script.js"></script>
+    <script src="/Under_Construction/pages/main/footer/script.js"></script>
 </body>
 </html>
